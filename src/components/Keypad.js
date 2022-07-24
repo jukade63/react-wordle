@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import characters from '../data/letters'
 
 function Keypad({ usedKeys }) {
   const [letters, setLetters] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:3001/letters')
-      .then((res) => res.json())
-      .then((data) => {
-        setLetters(data)
-      })
+    setLetters(characters)
   }, [])
   return (
     <div className='keypad'>

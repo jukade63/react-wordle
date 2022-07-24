@@ -1,0 +1,23 @@
+const solutions = [
+  { id: 1, word: 'icing' },
+  { id: 2, word: 'itchy' },
+  { id: 3, word: 'knife' },
+  { id: 4, word: 'husky' },
+  { id: 5, word: 'hoard' },
+  { id: 6, word: 'grunt' },
+  { id: 7, word: 'evict' },
+  { id: 8, word: 'gecko' },
+  { id: 9, word: 'prime' },
+  { id: 10, word: 'palsy' },
+  { id: 11, word: 'spike' },
+  { id: 12, word: 'snore' },
+  { id: 13, word: 'sadly' },
+  { id: 14, word: 'tease' },
+  { id: 15, word: 'thyme' },
+  { id: 16, word: 'trash' },
+  { id: 17, word: 'thyme' },
+  { id: 18, word: 'wrack' },
+  { id: 19, word: 'weird' },
+  { id: 20, word: 'thyme' },
+]
+export default solutions
